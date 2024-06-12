@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { useContext } from "react";
+import ThemeContext from "../context/ThemeContext";
 const Transform = () => {
+  const { isDarkMode } = useContext(ThemeContext);
+
   return (
-    <div> <section className="w-full bg-primary-50 py-20">
+    <div> <section className={`${
+      isDarkMode ? "bg-gray-900" : " bg-primary-10"
+    } w-full   py-20`}>
     <div className="flex items-center gap-5   w-[90%] m-auto justify-between">
       <img
         src="src/assets/images/image 3.png"

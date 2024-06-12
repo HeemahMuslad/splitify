@@ -70,10 +70,10 @@ const Overview = () => {
       {/* ============ NAME */}
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-5">
         <div className="flex items-center gap-1 tracking-[0] leading-6">
-          <div className="font-semibold text-[18px] sm:text-[22px] text-gray-500 mr-2">
+          <div className="font-semibold text-[18px] sm:text-[22px]  mr-2">
             Welcome back
           </div>
-          <div className="bold text-black text-3xl font-bold font-poppins">
+          <div className="bold text-3xl font-bold font-poppins">
             Davina J.
           </div>
         </div>
@@ -111,7 +111,8 @@ const Overview = () => {
       </div>
 
       {initialOverview ? (
-        <div className="flex flex-col items-center gap-3">
+        
+        <div className="flex flex-col items-center mt-40 gap-3">
           <p className="font-bold text-center">
             As you use Splitify, your transaction history will appear her. Add
             friends and start share bills
@@ -121,7 +122,6 @@ const Overview = () => {
               to="friends/addfriend "
               className="flex items-center gap-1 text-primary-100"
             >
-              {" "}
               <MdGroupAdd className="text-2xl " />
               <p>Add Friend</p>
             </Link>
