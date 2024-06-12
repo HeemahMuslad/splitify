@@ -2,7 +2,7 @@ import React from "react";
 import { sectionLayout } from "../../utils/sections";
 import { ButtonPrimary } from "../elements/Button";
 
-const AddFriend = () => {
+const AddExpense = () => {
   return (
     <div className={sectionLayout}>
       <form className="space-y-4">
@@ -78,4 +78,4 @@ const AddFriend = () => {
   );
 };
 
-export default AddFriend;
+export default AddExpense;

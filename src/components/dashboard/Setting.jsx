@@ -17,7 +17,7 @@ const Setting = () => {
     <div className={sectionLayout}>
       <div className="flex border p-10 flex-col">
         <div className="flex justify-between w-full items-center ">
-          <h1 className="bold text-black text-3xl font-bold font-poppins">
+          <h1 className="bold  text-3xl font-bold font-poppins">
             Davina J.
           </h1>
           <div className="flex gap-5">
@@ -38,7 +38,7 @@ const Setting = () => {
         <form className="space-y-4">
           <div className="flex gap-5  ">
             <div>
-              <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium text-slate-700 ">
+              <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium  ">
                 First Name:
               </label>
               <input
@@ -48,7 +48,7 @@ const Setting = () => {
               />
             </div>
             <div>
-              <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium text-slate-700">
+              <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium">
                 Last Name:
               </label>
               <input
@@ -59,7 +59,7 @@ const Setting = () => {
             </div>
           </div>
           <div>
-            <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium text-slate-700">
+            <label className="block after:content-['*'] after:ml-0.5 after:text-red  text-sm font-medium ">
               Address:
             </label>
             <input
@@ -71,10 +71,10 @@ const Setting = () => {
         </form>
       </div>
       <div className="flex border p-10 flex-col">
-        <h1 className="text-xl font-bold">General Preferences</h1>
+        <h1 className="text-xl font-bold mb-5">General Preferences</h1>
         <div className="flex w-full justify-between items-center">
           <div>
-            <p className="text-lg font-semibold text-gray-900">
+            <p className="text-lg  ">
               Email Notifications
             </p>
             <p className=" text-slate-500">
@@ -85,7 +85,7 @@ const Setting = () => {
         </div>
         <div className="flex w-full justify-between items-center">
           <div>
-            <p className="text-lg font-semibold text-gray-900">
+            <p className="text-lg f">
               In-App Notifications
             </p>
             <p className=" text-slate-500">
@@ -96,7 +96,7 @@ const Setting = () => {
         </div>
         <div className="flex w-full justify-between items-center">
           <div>
-            <p className="text-lg font-semibold text-gray-900">Language </p>
+            <p className="text-lg  ">Language </p>
             <p className=" text-slate-500">Select Language</p>
           </div>
           <div className="flex">
@@ -105,7 +105,7 @@ const Setting = () => {
         </div>
         <div className="flex w-full justify-between items-center mt-5">
           <div>
-            <p className="text-lg font-semibold text-gray-900">Dark Mode</p>
+            <p className="text-lg  ">Dark Mode</p>
             <p className="text-slate-500">
               Enable or disable dark mode for the application
             </p>

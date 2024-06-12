@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Header from "../../components/Header";
 import Sidebar from "../../components/Sidebar";
 import { Outlet } from "react-router-dom";
-import ThemeContext from "../../components/dashboard/ThemeContext";
+import ThemeContext from "../../context/ThemeContext";
 
 function Dashboard() {
   const { isDarkMode } = useContext(ThemeContext);
@@ -20,7 +20,9 @@ function Dashboard() {
       {/* -------------------------- */}
       <main
         className={`${
-          isDarkMode ? "bg-gray-900 text-white" : "bg-cool-white-100"
+          isDarkMode
+            ? "bg-gray-900 text-cool-white-100 "
+            : "bg-cool-white-100 text-gray-900"
         }  h-full relative flex-grow overflow-y-scroll w-[90%]`}
       >
         <Header />

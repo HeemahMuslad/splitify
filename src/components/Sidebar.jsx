@@ -22,8 +22,8 @@ const Sidebar = () => {
       icon: <FaUserFriends className="w-8 h-8" />,
     },
     {
-      name: "Groups",
-      path: "groups",
+      name: "Expense",
+      path: "expense",
       icon: <MdOutlineGroups className="w-8 h-8" />,
     },
     {

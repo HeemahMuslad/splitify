@@ -3,8 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Overview from "./components/dashboard/Overview";
 import Friends from "./components/dashboard/Friends";
 import AddFriend from "./components/dashboard/AddFriend";
-import Groups from "./components/dashboard/Groups";
-import AddGroup from "./components/dashboard/AddGroup";
+import Expense from "./components/dashboard/Expense";
+import AddExpense from "./components/dashboard/AddExpense";
 import Setting from "./components/dashboard/Setting";
 import LandingPage from "./pages/LandingPage";
 import SignUp from "./pages/SignUp";
@@ -34,8 +34,8 @@ const App = () => {
             <Route index element={<Overview />} />
             <Route path="friends" element={<Friends />} />
             <Route path="friends/addfriend" element={<AddFriend />} />
-            <Route path="groups" element={<Groups />} />
-            <Route path="groups/addgroup" element={<AddGroup />} />
+            <Route path="expense" element={<Expense />} />
+            <Route path="expense/addexpense" element={<AddExpense />} />
             <Route path="setting" element={<Setting />} />
           </Route>
         </Route>
